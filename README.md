@@ -18,10 +18,17 @@ Javascript package for verifying Bangla digit
 ## Features
 
 
-## Install
+## `npm` Install
 
 `npm install --save verify-bangla-digit`
 
+## Browser Install
+
+#### For Production Use
+```https://cdn.rawgit.com/Prosen-Ghosh/verify-bangla-digit/2e4108c3/verify-bangla-digit.js```
+
+#### For Development Use
+```https://rawgit.com/Prosen-Ghosh/verify-bangla-digit/master/verify-bangla-digit.js```
 
 ## Dependencies
 
@@ -46,6 +53,11 @@ verifyDigit("");
 
 verifyDigit("১২৩৪৫৬৭৮৯০a");
 //=> false
+
+
+//<input type="text" value="১২" id="digit">
+verifyDigit(document.getElementById('digit').value);
+//=> true
 ```
 ## Author
 

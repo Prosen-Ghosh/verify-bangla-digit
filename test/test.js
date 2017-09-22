@@ -13,4 +13,8 @@ describe("Verify Bangla Digit",function(){
     it('Alphanumeric Parameter Should Return False',function(){
         assert.equal(verifyDigit('১২৩৪৫৬৭৮৯০A'),false);
     });
+
+    it('Single Bangla Digit Should Return True',function(){
+        assert.equal(verifyDigit('১'),true);
+    });
 });
