@@ -1,6 +1,6 @@
 {
   "name": "verify-bangla-digit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript package for verifying Bangla digit",
   "main": "verify-bangla-digit.js",
   "dependencies": {

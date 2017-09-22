@@ -30,7 +30,7 @@ Javascript package for verifying Bangla digit
 #### For Development Use
 ```https://rawgit.com/Prosen-Ghosh/verify-bangla-digit/master/verify-bangla-digit.js```
 
-## Dependencies
+## Development Dependencies
 
 Package | Version | Dev
 --- |:---:|:---:
@@ -42,7 +42,7 @@ Package | Version | Dev
 ## Usage
 
 ```javascript
-const verifyDigit = require('./verify-bangla-digit');
+const verifyDigit = require('verify-bangla-digit');
 
 verifyDigit("১২৩৪৫৬৭৮৯০");
 //=> true
