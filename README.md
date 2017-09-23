@@ -24,11 +24,15 @@ Javascript package for verifying Bangla digit
 
 ## Browser Install
 
-#### For Production Use
-```https://cdn.rawgit.com/Prosen-Ghosh/verify-bangla-digit/2e4108c3/verify-bangla-digit.js```
+#### For Production Script Tag
+```javascript
+<script src="https://cdn.rawgit.com/Prosen-Ghosh/verify-bangla-digit/2e4108c3/verify-bangla-digit.js"></script>
+```
 
-#### For Development Use
-```https://rawgit.com/Prosen-Ghosh/verify-bangla-digit/master/verify-bangla-digit.js```
+#### For Development Script Tag
+```javascript
+<script src="https://rawgit.com/Prosen-Ghosh/verify-bangla-digit/master/verify-bangla-digit.js"></script>
+```
 
 ## Development Dependencies
 
